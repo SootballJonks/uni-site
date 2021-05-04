@@ -1,0 +1,6 @@
+[03-May-2021 05:38:26 UTC] PHP Notice:  Undefined variable: myname in /home/iskra/Local Sites/fictional-university/app/public/experiment.php on line 7
+[03-May-2021 05:38:26 UTC] PHP Stack trace:
+[03-May-2021 05:38:26 UTC] PHP   1. {main}() /home/iskra/Local Sites/fictional-university/app/public/experiment.php:0
+[03-May-2021 05:38:26 UTC] PHP Notice:  Undefined variable: myname in /home/iskra/Local Sites/fictional-university/app/public/experiment.php on line 9
+[03-May-2021 05:38:26 UTC] PHP Stack trace:
+[03-May-2021 05:38:26 UTC] PHP   1. {main}() /home/iskra/Local Sites/fictional-university/app/public/experiment.php:0

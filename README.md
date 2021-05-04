@@ -1,3 +1,3 @@
 # Fictional University
   
-This is a WordPress website, used for practice. Using the Local by Flywheel template.
+This is a WordPress website, created for practice.

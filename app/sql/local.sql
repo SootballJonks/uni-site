@@ -134,7 +134,7 @@ CREATE TABLE `wp_options` (
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
-) ENGINE=InnoDB AUTO_INCREMENT=215 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=223 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -249,7 +249,7 @@ INSERT INTO `wp_options` VALUES (103,'widget_recent-comments','a:2:{i:2;a:2:{s:5
 INSERT INTO `wp_options` VALUES (104,'widget_archives','a:2:{i:2;a:3:{s:5:\"title\";s:0:\"\";s:5:\"count\";i:0;s:8:\"dropdown\";i:0;}s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (105,'widget_meta','a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (106,'sidebars_widgets','a:2:{s:19:\"wp_inactive_widgets\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:13:\"array_version\";i:3;}','yes');
-INSERT INTO `wp_options` VALUES (107,'cron','a:7:{i:1620197120;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1620233120;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1620276320;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1620276475;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1620276476;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1620708320;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}','yes');
+INSERT INTO `wp_options` VALUES (107,'cron','a:5:{i:1620449120;a:6:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1620449275;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1620449276;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1620708320;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}','yes');
 INSERT INTO `wp_options` VALUES (108,'widget_pages','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (109,'widget_calendar','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (110,'widget_media_audio','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
@@ -263,9 +263,9 @@ INSERT INTO `wp_options` VALUES (117,'widget_nav_menu','a:1:{s:12:\"_multiwidget
 INSERT INTO `wp_options` VALUES (118,'widget_custom_html','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (120,'recovery_keys','a:0:{}','yes');
 INSERT INTO `wp_options` VALUES (121,'https_detection_errors','a:1:{s:20:\"https_request_failed\";a:1:{i:0;s:21:\"HTTPS request failed.\";}}','yes');
-INSERT INTO `wp_options` VALUES (122,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.7.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.7.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.7.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.7.1-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.7.1\";s:7:\"version\";s:5:\"5.7.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1620189923;s:15:\"version_checked\";s:5:\"5.7.1\";s:12:\"translations\";a:0:{}}','no');
-INSERT INTO `wp_options` VALUES (124,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1620189923;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:0:{}}','no');
-INSERT INTO `wp_options` VALUES (127,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1620189923;s:7:\"checked\";a:1:{s:9:\"uni-theme\";s:5:\"1.0.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}','no');
+INSERT INTO `wp_options` VALUES (122,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.7.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.7.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.7.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.7.1-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.7.1\";s:7:\"version\";s:5:\"5.7.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1620435316;s:15:\"version_checked\";s:5:\"5.7.1\";s:12:\"translations\";a:0:{}}','no');
+INSERT INTO `wp_options` VALUES (124,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1620435316;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:0:{}}','no');
+INSERT INTO `wp_options` VALUES (127,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1620435317;s:7:\"checked\";a:1:{s:9:\"uni-theme\";s:5:\"1.0.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}','no');
 INSERT INTO `wp_options` VALUES (128,'theme_mods_twentytwentyone','a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1620147307;s:4:\"data\";a:3:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:3:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";}s:9:\"sidebar-2\";a:3:{i:0;s:10:\"archives-2\";i:1;s:12:\"categories-2\";i:2;s:6:\"meta-2\";}}}}','yes');
 INSERT INTO `wp_options` VALUES (129,'_site_transient_timeout_browser_2928ac8ac023b97f39c033d35b9ed176','1620622075','no');
 INSERT INTO `wp_options` VALUES (130,'_site_transient_browser_2928ac8ac023b97f39c033d35b9ed176','a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"90.0.4430.93\";s:8:\"platform\";s:5:\"Linux\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}','no');
@@ -275,12 +275,13 @@ INSERT INTO `wp_options` VALUES (136,'can_compress_scripts','0','no');
 INSERT INTO `wp_options` VALUES (149,'finished_updating_comment_type','1','yes');
 INSERT INTO `wp_options` VALUES (155,'_transient_health-check-site-status-result','{\"good\":\"13\",\"recommended\":\"6\",\"critical\":\"0\"}','yes');
 INSERT INTO `wp_options` VALUES (175,'current_theme','University Theme','yes');
-INSERT INTO `wp_options` VALUES (176,'theme_mods_uni-theme','a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;}','yes');
+INSERT INTO `wp_options` VALUES (176,'theme_mods_uni-theme','a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:3:{s:20:\"header-menu-location\";i:2;s:18:\"footer-location-01\";i:3;s:18:\"footer-location-02\";i:4;}s:18:\"custom_css_post_id\";i:-1;}','yes');
 INSERT INTO `wp_options` VALUES (177,'theme_switched','','yes');
 INSERT INTO `wp_options` VALUES (180,'WPLANG','','yes');
 INSERT INTO `wp_options` VALUES (181,'new_admin_email','iskrablackhold@gmail.com','yes');
-INSERT INTO `wp_options` VALUES (209,'_site_transient_timeout_theme_roots','1620191648','no');
-INSERT INTO `wp_options` VALUES (210,'_site_transient_theme_roots','a:1:{s:9:\"uni-theme\";s:7:\"/themes\";}','no');
+INSERT INTO `wp_options` VALUES (217,'_site_transient_timeout_theme_roots','1620437117','no');
+INSERT INTO `wp_options` VALUES (218,'_site_transient_theme_roots','a:1:{s:9:\"uni-theme\";s:7:\"/themes\";}','no');
+INSERT INTO `wp_options` VALUES (220,'nav_menu_options','a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}','yes');
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -299,7 +300,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -316,13 +317,106 @@ INSERT INTO `wp_postmeta` VALUES (9,9,'_edit_lock','1620161825:1');
 INSERT INTO `wp_postmeta` VALUES (10,11,'_edit_lock','1620163833:1');
 INSERT INTO `wp_postmeta` VALUES (11,3,'_edit_lock','1620164884:1');
 INSERT INTO `wp_postmeta` VALUES (12,15,'_edit_lock','1620189839:1');
-INSERT INTO `wp_postmeta` VALUES (13,17,'_edit_lock','1620190052:1');
+INSERT INTO `wp_postmeta` VALUES (13,17,'_edit_lock','1620438346:1');
 INSERT INTO `wp_postmeta` VALUES (14,9,'_wp_trash_meta_status','publish');
 INSERT INTO `wp_postmeta` VALUES (15,9,'_wp_trash_meta_time','1620165483');
 INSERT INTO `wp_postmeta` VALUES (16,9,'_wp_desired_post_slug','test-page1');
 INSERT INTO `wp_postmeta` VALUES (17,19,'_edit_lock','1620165397:1');
 INSERT INTO `wp_postmeta` VALUES (18,2,'_edit_lock','1620174768:1');
 INSERT INTO `wp_postmeta` VALUES (19,23,'_edit_lock','1620189708:1');
+INSERT INTO `wp_postmeta` VALUES (20,24,'_menu_item_type','custom');
+INSERT INTO `wp_postmeta` VALUES (21,24,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (22,24,'_menu_item_object_id','24');
+INSERT INTO `wp_postmeta` VALUES (23,24,'_menu_item_object','custom');
+INSERT INTO `wp_postmeta` VALUES (24,24,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (25,24,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (26,24,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (27,24,'_menu_item_url','http://localhost:10003/');
+INSERT INTO `wp_postmeta` VALUES (28,24,'_menu_item_orphaned','1620441081');
+INSERT INTO `wp_postmeta` VALUES (29,25,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (30,25,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (31,25,'_menu_item_object_id','3');
+INSERT INTO `wp_postmeta` VALUES (32,25,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (33,25,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (34,25,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (35,25,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (36,25,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (38,26,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (39,26,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (40,26,'_menu_item_object_id','19');
+INSERT INTO `wp_postmeta` VALUES (41,26,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (42,26,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (43,26,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (44,26,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (45,26,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (46,26,'_menu_item_orphaned','1620441081');
+INSERT INTO `wp_postmeta` VALUES (47,27,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (48,27,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (49,27,'_menu_item_object_id','11');
+INSERT INTO `wp_postmeta` VALUES (50,27,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (51,27,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (52,27,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (53,27,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (54,27,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (56,28,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (57,28,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (58,28,'_menu_item_object_id','17');
+INSERT INTO `wp_postmeta` VALUES (59,28,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (60,28,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (61,28,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (62,28,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (63,28,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (64,28,'_menu_item_orphaned','1620441081');
+INSERT INTO `wp_postmeta` VALUES (65,29,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (66,29,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (67,29,'_menu_item_object_id','15');
+INSERT INTO `wp_postmeta` VALUES (68,29,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (69,29,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (70,29,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (71,29,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (72,29,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (73,29,'_menu_item_orphaned','1620441081');
+INSERT INTO `wp_postmeta` VALUES (74,30,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (75,30,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (76,30,'_menu_item_object_id','2');
+INSERT INTO `wp_postmeta` VALUES (77,30,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (78,30,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (79,30,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (80,30,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (81,30,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (82,30,'_menu_item_orphaned','1620441081');
+INSERT INTO `wp_postmeta` VALUES (83,31,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (84,31,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (85,31,'_menu_item_object_id','11');
+INSERT INTO `wp_postmeta` VALUES (86,31,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (87,31,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (88,31,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (89,31,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (90,31,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (92,32,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (93,32,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (94,32,'_menu_item_object_id','2');
+INSERT INTO `wp_postmeta` VALUES (95,32,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (96,32,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (97,32,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (98,32,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (99,32,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (101,33,'_menu_item_type','post_type');
+INSERT INTO `wp_postmeta` VALUES (102,33,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (103,33,'_menu_item_object_id','3');
+INSERT INTO `wp_postmeta` VALUES (104,33,'_menu_item_object','page');
+INSERT INTO `wp_postmeta` VALUES (105,33,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (106,33,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (107,33,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (108,33,'_menu_item_url','');
+INSERT INTO `wp_postmeta` VALUES (110,34,'_menu_item_type','custom');
+INSERT INTO `wp_postmeta` VALUES (111,34,'_menu_item_menu_item_parent','0');
+INSERT INTO `wp_postmeta` VALUES (112,34,'_menu_item_object_id','34');
+INSERT INTO `wp_postmeta` VALUES (113,34,'_menu_item_object','custom');
+INSERT INTO `wp_postmeta` VALUES (114,34,'_menu_item_target','');
+INSERT INTO `wp_postmeta` VALUES (115,34,'_menu_item_classes','a:1:{i:0;s:0:\"\";}');
+INSERT INTO `wp_postmeta` VALUES (116,34,'_menu_item_xfn','');
+INSERT INTO `wp_postmeta` VALUES (117,34,'_menu_item_url','https://www.google.ca/');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -362,7 +456,7 @@ CREATE TABLE `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -394,6 +488,17 @@ INSERT INTO `wp_posts` VALUES (20,1,'2021-05-04 21:58:33','2021-05-04 21:58:33',
 INSERT INTO `wp_posts` VALUES (21,1,'2021-05-04 21:58:48','2021-05-04 21:58:48','<!-- wp:paragraph -->\n<p>You now have cookies. RIP</p>\n<!-- /wp:paragraph -->','Cookie Policy','','inherit','closed','closed','','19-autosave-v1','','','2021-05-04 21:58:48','2021-05-04 21:58:48','',19,'http://localhost:10003/?p=21',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (22,1,'2021-05-05 00:35:08','2021-05-05 00:35:08','<!-- wp:paragraph -->\n<p>This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin\' caught in the rain.)</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...or something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>As a new WordPress user, you should go to <a href=\"http://localhost:10003/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>\n<!-- /wp:paragraph -->','Sample Page','','inherit','closed','closed','','2-autosave-v1','','','2021-05-05 00:35:08','2021-05-05 00:35:08','',2,'http://localhost:10003/?p=22',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (23,1,'2021-05-05 04:44:08','0000-00-00 00:00:00','','Auto Draft','','auto-draft','closed','closed','','','','','2021-05-05 04:44:08','0000-00-00 00:00:00','',0,'http://localhost:10003/?page_id=23',0,'page','',0);
+INSERT INTO `wp_posts` VALUES (24,1,'2021-05-08 02:31:21','0000-00-00 00:00:00','','Home','','draft','closed','closed','','','','','2021-05-08 02:31:21','0000-00-00 00:00:00','',0,'http://localhost:10003/?p=24',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (25,1,'2021-05-08 02:33:56','2021-05-08 02:33:40',' ','','','publish','closed','closed','','25','','','2021-05-08 02:33:56','2021-05-08 02:33:56','',0,'http://localhost:10003/?p=25',2,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (26,1,'2021-05-08 02:31:21','0000-00-00 00:00:00',' ','','','draft','closed','closed','','','','','2021-05-08 02:31:21','0000-00-00 00:00:00','',3,'http://localhost:10003/?p=26',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (27,1,'2021-05-08 02:33:56','2021-05-08 02:33:40',' ','','','publish','closed','closed','','27','','','2021-05-08 02:33:56','2021-05-08 02:33:56','',0,'http://localhost:10003/?p=27',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (28,1,'2021-05-08 02:31:21','0000-00-00 00:00:00',' ','','','draft','closed','closed','','','','','2021-05-08 02:31:21','0000-00-00 00:00:00','',11,'http://localhost:10003/?p=28',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (29,1,'2021-05-08 02:31:21','0000-00-00 00:00:00',' ','','','draft','closed','closed','','','','','2021-05-08 02:31:21','0000-00-00 00:00:00','',11,'http://localhost:10003/?p=29',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (30,1,'2021-05-08 02:31:21','0000-00-00 00:00:00',' ','','','draft','closed','closed','','','','','2021-05-08 02:31:21','0000-00-00 00:00:00','',0,'http://localhost:10003/?p=30',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (31,1,'2021-05-08 03:59:05','2021-05-08 03:59:05',' ','','','publish','closed','closed','','31','','','2021-05-08 03:59:05','2021-05-08 03:59:05','',0,'http://localhost:10003/?p=31',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (32,1,'2021-05-08 03:59:05','2021-05-08 03:59:05',' ','','','publish','closed','closed','','32','','','2021-05-08 03:59:05','2021-05-08 03:59:05','',0,'http://localhost:10003/?p=32',2,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (33,1,'2021-05-08 04:01:30','2021-05-08 04:00:21',' ','','','publish','closed','closed','','33','','','2021-05-08 04:01:30','2021-05-08 04:01:30','',0,'http://localhost:10003/?p=33',1,'nav_menu_item','',0);
+INSERT INTO `wp_posts` VALUES (34,1,'2021-05-08 04:01:30','2021-05-08 04:00:21','','Google','','publish','closed','closed','','google','','','2021-05-08 04:01:30','2021-05-08 04:01:30','',0,'http://localhost:10003/?p=34',2,'nav_menu_item','',0);
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -422,6 +527,12 @@ LOCK TABLES `wp_term_relationships` WRITE;
 INSERT INTO `wp_term_relationships` VALUES (1,1,0);
 INSERT INTO `wp_term_relationships` VALUES (5,1,0);
 INSERT INTO `wp_term_relationships` VALUES (7,1,0);
+INSERT INTO `wp_term_relationships` VALUES (25,2,0);
+INSERT INTO `wp_term_relationships` VALUES (27,2,0);
+INSERT INTO `wp_term_relationships` VALUES (31,3,0);
+INSERT INTO `wp_term_relationships` VALUES (32,3,0);
+INSERT INTO `wp_term_relationships` VALUES (33,4,0);
+INSERT INTO `wp_term_relationships` VALUES (34,4,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -442,7 +553,7 @@ CREATE TABLE `wp_term_taxonomy` (
   PRIMARY KEY (`term_taxonomy_id`),
   UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
   KEY `taxonomy` (`taxonomy`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -452,6 +563,9 @@ CREATE TABLE `wp_term_taxonomy` (
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
 INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,3);
+INSERT INTO `wp_term_taxonomy` VALUES (2,2,'nav_menu','',0,2);
+INSERT INTO `wp_term_taxonomy` VALUES (3,3,'nav_menu','',0,2);
+INSERT INTO `wp_term_taxonomy` VALUES (4,4,'nav_menu','',0,2);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -497,7 +611,7 @@ CREATE TABLE `wp_terms` (
   PRIMARY KEY (`term_id`),
   KEY `slug` (`slug`(191)),
   KEY `name` (`name`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -507,6 +621,9 @@ CREATE TABLE `wp_terms` (
 LOCK TABLES `wp_terms` WRITE;
 /*!40000 ALTER TABLE `wp_terms` DISABLE KEYS */;
 INSERT INTO `wp_terms` VALUES (1,'Uncategorized','uncategorized',0);
+INSERT INTO `wp_terms` VALUES (2,'Main Header Menu','main-header-menu',0);
+INSERT INTO `wp_terms` VALUES (3,'Explore menu','explore-menu',0);
+INSERT INTO `wp_terms` VALUES (4,'Learn Menu','learn-menu',0);
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -525,7 +642,7 @@ CREATE TABLE `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -549,9 +666,11 @@ INSERT INTO `wp_usermeta` VALUES (12,1,'wp_capabilities','a:1:{s:13:\"administra
 INSERT INTO `wp_usermeta` VALUES (13,1,'wp_user_level','10');
 INSERT INTO `wp_usermeta` VALUES (14,1,'dismissed_wp_pointers','');
 INSERT INTO `wp_usermeta` VALUES (15,1,'show_welcome_panel','1');
-INSERT INTO `wp_usermeta` VALUES (16,1,'session_tokens','a:1:{s:64:\"694c40b1103dcc763a8a4cb1a076e33870a2350f14557b9c744a82579b4c5e96\";a:4:{s:10:\"expiration\";i:1620190075;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:104:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36\";s:5:\"login\";i:1620017275;}}');
+INSERT INTO `wp_usermeta` VALUES (16,1,'session_tokens','a:1:{s:64:\"57cfa309ecc8398afca8e9125d8bb0042fcfa7ae59f8edab9472f0d9a99892c0\";a:4:{s:10:\"expiration\";i:1620608176;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:104:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36\";s:5:\"login\";i:1620435376;}}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','4');
 INSERT INTO `wp_usermeta` VALUES (18,1,'community-events-location','a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}');
+INSERT INTO `wp_usermeta` VALUES (19,1,'managenav-menuscolumnshidden','a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}');
+INSERT INTO `wp_usermeta` VALUES (20,1,'metaboxhidden_nav-menus','a:1:{i:0;s:12:\"add-post_tag\";}');
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -599,4 +718,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-04 22:56:43
+-- Dump completed on 2021-05-07 21:02:52

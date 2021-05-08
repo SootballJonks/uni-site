@@ -6,3 +6,11 @@
 [03-May-2021 22:19:22] NOTICE: ready to handle connections
 [04-May-2021 09:43:56] NOTICE: fpm is running, pid 8434
 [04-May-2021 09:43:56] NOTICE: ready to handle connections
+[07-May-2021 17:54:20] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 17:54:20] ERROR: FPM initialization failed
+[07-May-2021 17:54:21] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 17:54:21] ERROR: FPM initialization failed
+[07-May-2021 17:54:21] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 17:54:21] ERROR: FPM initialization failed
+[07-May-2021 17:54:22] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 17:54:22] ERROR: FPM initialization failed

@@ -14,3 +14,11 @@
 [07-May-2021 17:54:21] ERROR: FPM initialization failed
 [07-May-2021 17:54:22] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
 [07-May-2021 17:54:22] ERROR: FPM initialization failed
+[07-May-2021 21:02:55] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 21:02:55] ERROR: FPM initialization failed
+[07-May-2021 21:02:56] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 21:02:56] ERROR: FPM initialization failed
+[07-May-2021 21:02:56] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 21:02:56] ERROR: FPM initialization failed
+[07-May-2021 21:02:57] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
+[07-May-2021 21:02:57] ERROR: FPM initialization failed

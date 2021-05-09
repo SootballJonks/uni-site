@@ -10,7 +10,11 @@ function uni_post_types() {
       'all_items' => 'All Events',
       'singular_name' => 'Event'
     ),
-    'menu_icon' => 'dashicons-calendar'
+    'menu_icon' => 'dashicons-calendar',
+    'has_archive' => true,
+    'rewrite' => array('slug' => 'events'),
+    'show_in_rest' => true,
+    'supports' => array('title', 'editor', 'excerpt')
   ));
 }
 

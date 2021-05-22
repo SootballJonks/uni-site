@@ -107,3 +107,4 @@
 [24-May-2021 04:34:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/iskra/Local Sites/fictional-university/app/public/wp-content/themes/uni-theme/functions.php on line 41
 [24-May-2021 04:34:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/iskra/Local Sites/fictional-university/app/public/wp-content/themes/uni-theme/functions.php on line 41
 [24-May-2021 04:36:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/iskra/Local Sites/fictional-university/app/public/wp-content/themes/uni-theme/functions.php on line 41
+[24-May-2021 05:51:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/iskra/Local Sites/fictional-university/app/public/wp-content/themes/uni-theme/single-event.php on line 27

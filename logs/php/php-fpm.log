@@ -46,3 +46,5 @@
 [23-May-2021 16:33:37] ERROR: FPM initialization failed
 [23-May-2021 16:33:37] ERROR: Another FPM instance seems to already listen on /home/iskra/.config/Local/run/qIrM7Gvw1/php/php-fpm.socket
 [23-May-2021 16:33:37] ERROR: FPM initialization failed
+[24-May-2021 22:35:39] NOTICE: fpm is running, pid 8768
+[24-May-2021 22:35:39] NOTICE: ready to handle connections
